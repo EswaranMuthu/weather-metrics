@@ -1,0 +1,57 @@
+plugins {
+	id 'org.springframework.boot' version '2.1.8.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+	id 'java'
+	id 'groovy'
+	id 'jacoco'
+
+}
+
+group = 'com.weather.metrics'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+	developmentOnly
+	runtimeClasspath {
+		extendsFrom developmentOnly
+	}
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation "org.apache.commons:commons-lang3:3.0"
+
+
+	implementation("io.springfox:springfox-swagger2:2.9.2")
+
+	// testing framework
+	testImplementation "org.codehaus.groovy:groovy-all:2.4.4"
+	testImplementation "org.springframework.boot:spring-boot-starter-test"
+	testImplementation "org.spockframework:spock-core:1.3-groovy-2.4"
+	testImplementation "org.spockframework:spock-spring:1.3-groovy-2.4"
+	testImplementation "cglib:cglib-nodep:3.2.12" //needed for spock mocking/stubbing
+
+	testCompileOnly "org.projectlombok:lombok"
+	testAnnotationProcessor "org.projectlombok:lombok"
+
+	tasks.withType(Test) {
+		testLogging {
+			// causes failed tests to print the full message in the console, helpful for debugging
+			exceptionFormat "full"
+		}
+	}
+
+}
