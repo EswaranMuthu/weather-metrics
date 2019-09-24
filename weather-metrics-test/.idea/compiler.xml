@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.gingeleski.cucumber-example.main" target="1.8" />
+      <module name="com.gingeleski.cucumber-example.test" target="1.8" />
+      <module name="com.weather.metrics.cucumber-example.main" target="1.8" />
+      <module name="com.weather.metrics.cucumber-example.test" target="1.8" />
+      <module name="com.weather.metrics.weather.metrics.test.main" target="1.8" />
+      <module name="com.weather.metrics.weather.metrics.test.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

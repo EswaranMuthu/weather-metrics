@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Add a measurement with valid (numeric) values" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-22T21:53:01" hostname="USPG2-F3V8M72" time="1.39">
+  <properties/>
+  <testcase name="classMethod" classname="Scenario: Add a measurement with valid (numeric) values" time="1.39"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

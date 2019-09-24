@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Get a specific measurement" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-09-22T21:53:02" hostname="USPG2-F3V8M72" time="0.014">
+  <properties/>
+  <testcase name="Given I have submitted new measurements as follows:" classname="Scenario: Get a specific measurement" time="0.0"/>
+  <testcase name="When I get a measurement for &quot;2015-09-01T16:20Z&quot;" classname="Scenario: Get a specific measurement" time="0.0"/>
+  <testcase name="Then the response has a status code of 200" classname="Scenario: Get a specific measurement" time="0.0"/>
+  <testcase name="And the response body is:" classname="Scenario: Get a specific measurement" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Get a specific measurement" time="0.073"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

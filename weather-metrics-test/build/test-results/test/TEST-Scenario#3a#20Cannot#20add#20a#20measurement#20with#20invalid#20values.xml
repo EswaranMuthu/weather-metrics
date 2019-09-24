@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Cannot add a measurement with invalid values" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-09-22T21:53:02" hostname="USPG2-F3V8M72" time="0.001">
+  <properties/>
+  <testcase name="When I submit a new measurement as follows:" classname="Scenario: Cannot add a measurement with invalid values" time="0.0"/>
+  <testcase name="Then the response has a status code of 400" classname="Scenario: Cannot add a measurement with invalid values" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Cannot add a measurement with invalid values" time="0.031"/>
+  <system-out><![CDATA[
+  Scenario: Add a measurement with valid (numeric) values ?[90m# 01-add-measurement.feature:6?[0m
+    # POST /measurements
+    ?[32mWhen ?[0m?[32mI submit a new measurement as follows:?[0m           ?[90m# AddMeasurementSteps.whenStatement(DataTable)?[0m
+    ?[32mThen ?[0m?[32mthe response has a status code of 201?[0m            ?[90m# AddMeasurementSteps.thenStatement()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

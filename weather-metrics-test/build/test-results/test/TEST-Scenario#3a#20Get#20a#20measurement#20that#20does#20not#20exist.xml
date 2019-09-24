@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Get a measurement that does not exist" tests="4" skipped="2" failures="0" errors="0" timestamp="2019-09-22T21:53:02" hostname="USPG2-F3V8M72" time="0.008">
+  <properties/>
+  <testcase name="Given I have submitted new measurements as follows:" classname="Scenario: Get a measurement that does not exist" time="0.0"/>
+  <testcase name="When I get a measurement for &quot;2015-09-01T16:50:00.000Z&quot;" classname="Scenario: Get a measurement that does not exist" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then the response has a status code of 404" classname="Scenario: Get a measurement that does not exist" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: Get a measurement that does not exist" time="0.054"/>
+  <system-out><![CDATA[
+  Scenario: Get a specific measurement               ?[90m# 02-get-measurement.feature:17?[0m
+    # GET /measurements/2015-09-01T16:20Z
+    ?[32mWhen ?[0m?[32mI get a measurement for "2015-09-01T16:20Z"?[0m ?[90m# GetMeasurementSteps.whenStatement()?[0m
+    ?[32mThen ?[0m?[32mthe response has a status code of 200?[0m       ?[90m# GetMeasurementSteps.getMeasurement()?[0m
+    ?[32mAnd ?[0m?[32mthe response body is:?[0m                        ?[90m# GetMeasurementSteps.checkResponseJson(DataTable)?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
